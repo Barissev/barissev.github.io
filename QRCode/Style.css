@@ -17,41 +17,32 @@ min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 
 .container{
-
     font-family: var(--ff-accent);
     font-size: 15px;
     max-width: 375px;
     margin: 0 auto;
-}
+  }
 
 
 
 .card{
-
-
     background-color: var(--clr-white);
     padding: 18px;
     text-align: center;
     margin: 0 1em;
-    border-radius: 1rem;
-
-}
+    border-radius: 1rem;}
 
 .qr__code{
-
    width: 100%;
-   border-radius: 1.1rem;
-
-
+  border-radius: 0.7rem;
 }
 
 
 .project__title{
-    font-size: 15px;
+    font-size: 20px;
     font-family: var(--ff-accent);
     font-weight: var(--fw-bold) ;
     color: var(--clr-dark-blue);
@@ -60,22 +51,14 @@ align-items: center;
 
 .project__content{
 
-    font-size: 15px;
+    font-size: 16px;
     font-family: var(--ff-accent);
     font-weight: var(--fw-regular);
     color: var(--clr-grayish-blue);
+    padding-bottom: 1px;
 }
 
-.texts{
-
-padding: 22px 10px;
-
-}
-
-
-
-
-
+.texts{padding: 22px 10px;}
 
 
 
