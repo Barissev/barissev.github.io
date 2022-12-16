@@ -22,7 +22,7 @@ align-items: center;
 .container{
     font-family: var(--ff-accent);
     font-size: 15px;
-    max-width: 375px;
+    max-width: 350px;
     margin: 0 auto;
   }
 
@@ -42,7 +42,7 @@ align-items: center;
 
 
 .project__title{
-    font-size: 20px;
+    font-size: 22px;
     font-family: var(--ff-accent);
     font-weight: var(--fw-bold) ;
     color: var(--clr-dark-blue);
