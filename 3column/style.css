@@ -1,0 +1,325 @@
+:root{ 
+--clr-primary-orange: hsl(31, 77%, 52%);
+--clr-primary-darkcyan: hsl(184, 100%, 22%) ;
+--clr-primary-vdarkcyan: hsl(179, 100%, 13%);
+
+--clr-neutral-trwhiteprg: hsla(0, 0%, 100%, 0.75);
+--clr-neutral--verylightgray: hsl(0, 0%, 95%);
+
+--ff-accent: 'Big Shoulders Display';
+--ff-regular: 'Lexend Deca', sans-serif;
+
+--fw-regular: 400;
+--fw-bold:700;
+
+}
+
+/*
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: var(--clr-neutral--verylightgray);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    
+
+    
+
+}
+
+
+.container{
+
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.cards{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+.sedans{
+
+    background-color: var(--clr-primary-orange);
+    padding: 50px;
+    
+    
+}
+
+
+.title__sedan{
+
+    font-family: var(--ff-accent);
+    text-transform: uppercase;
+    font-size: 28px;
+    color: var(--clr-neutral--verylightgray);
+    font-weight: var(--fw-bold);
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+
+.sedan__description{
+
+
+    font-family: var(--ff-regular);
+    font-weight: var(--fw-regular);
+    text-align: left;
+    color:var(--clr-neutral--verylightgray);
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+.button__sedan{
+
+
+    border-radius: 2em;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    color: var(--clr-primary-orange);
+    cursor: pointer;
+    font-family: var(--ff-regular);
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: center;
+    font-weight: var(--fw-regular);
+
+}
+
+.sedan__img{
+
+    width:64px; 
+    height:40px;
+    padding-bottom: 60px;
+
+}
+
+
+.suvs{
+
+    background-color: var(--clr-primary-darkcyan);
+    padding: 50px;
+
+}
+
+
+
+.title__suv{
+
+    font-family: var(--ff-accent);
+    text-transform: uppercase;
+    font-size: 28px;
+    color: var(--clr-neutral--verylightgray);
+    font-weight: var(--fw-bold);
+    text-align: justify;
+    margin-bottom: 20px;
+    
+}
+
+.suv__description{
+
+
+    font-family: var(--ff-regular);
+    font-weight: var(--fw-regular);
+    text-align: justify;
+    color: var(--clr-neutral-trwhiteprg);
+    text-align: justify;
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+.button__suv{
+
+
+    border-radius: 2em;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    color: var(--clr-primary-darkcyan);
+    cursor: pointer;
+    font-family: var(--ff-regular);
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: var(--fw-regular);
+    
+
+}
+
+
+.suv__img{
+
+    width:64px; 
+    height:40px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.luxuries{
+
+    background-color: var(--clr-primary-vdarkcyan);
+    padding:50px
+
+}
+
+
+
+.title__luxury{
+
+    font-family: var(--ff-accent);
+    text-transform: uppercase;
+    font-size: 28px;
+    color: var(--clr-neutral--verylightgray);
+    font-weight: var(--fw-bold);
+    text-align: justify;
+    margin-bottom: 20px;
+    
+}
+
+
+.luxury__description{
+
+
+    font-family: var(--ff-regular);
+    font-weight: var(--fw-regular);
+    text-align: justify;
+    color: var(--clr-neutral-trwhiteprg);
+    text-align: justify;
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+.button__luxury{
+
+
+    border-radius: 2em;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    color: var(--clr-primary-vdarkcyan);
+    cursor: pointer;
+    font-family: var(--ff-regular);
+    padding: 5px;
+    justify-content: center;
+    font-weight: var(--ff-regular);
+
+
+}
+
+.luxury__img{
+
+    width:64px; 
+    height:40px;
+    padding-bottom: 60px;
+
+}
+
+
+.button__luxury:is(:hover, :focus){
+
+
+    background-color: rgba(0, 66, 65, 0.5);
+    border: 2px solid var(--clr-neutral-trwhiteprg);
+    color: var(--clr-neutral-trwhiteprg);
+
+
+}
+
+.button__suv:is(:hover, :focus){
+
+
+    background-color: rgba(0, 105, 112, 0.5);
+    border: 2px solid var(--clr-neutral-trwhiteprg);
+    color: var(--clr-neutral-trwhiteprg);
+
+
+}
+
+
+.button__sedan:is(:hover, :focus){
+
+
+    background-color: rgba(227, 136, 38, 0.5);
+    border: 2px solid var(--clr-neutral-trwhiteprg);
+    color: var(--clr-neutral-trwhiteprg);
+
+
+}
+
+
+@media only screen and (max-width:768px){
+
+
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media only screen and (max-width:425px){
+
+
+    .cards{
+        margin: 2rem .5rem;
+
+    }
+
+}
+
+
+
+
+
