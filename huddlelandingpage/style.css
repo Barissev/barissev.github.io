@@ -118,7 +118,7 @@ header {
 .toppie{
 
 
-    background-image:url(/images/bg-mobile.svg);
+    background-image:url(images/bg-mobile.svg);
     background-size: cover;  
     background-repeat: no-repeat;
     
@@ -312,7 +312,7 @@ button{
         height: 100%;
         min-height: 100vh;
         margin: auto 0;
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(images/bg-desktop.svg);
         background-size: cover;  
         background-repeat: no-repeat;
         
